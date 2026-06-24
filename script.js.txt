@@ -1,0 +1,20 @@
+function generatePlan(){
+
+let subjects =
+document.getElementById("subjects").value;
+
+let hours =
+document.getElementById("hours").value;
+
+let output =
+"<h3>Study Plan</h3>";
+
+output += "Subjects: " + subjects + "<br>";
+output += "Study Time: " + hours + " Hours<br><br>";
+output += "1. Study regularly<br>";
+output += "2. Revise daily<br>";
+output += "3. Practice previous questions";
+
+document.getElementById("result").innerHTML = output;
+
+}
